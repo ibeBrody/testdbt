@@ -1,0 +1,11 @@
+product_id,product_name,category,subcategory,brand,price,cost,description,sku,created_date
+1,iPhone 14 Pro,Electronics,Smartphones,Apple,999.99,750.00,Latest iPhone with advanced camera system,APPL-IPH14P-128,2023-01-10
+2,Samsung Galaxy S23,Electronics,Smartphones,Samsung,899.99,675.00,Premium Android smartphone with excellent display,SAMS-GAL23-128,2023-01-10
+3,MacBook Air M2,Electronics,Laptops,Apple,1199.99,900.00,Lightweight laptop with M2 chip,APPL-MBA-M2-256,2023-01-10
+4,Dell XPS 13,Electronics,Laptops,Dell,1099.99,825.00,Premium ultrabook with InfinityEdge display,DELL-XPS13-512,2023-01-10
+5,Nike Air Max 270,Clothing,Shoes,Nike,129.99,65.00,Comfortable running shoes with air cushioning,NIKE-AM270-10,2023-01-10
+6,Adidas Ultraboost 22,Clothing,Shoes,Adidas,179.99,90.00,Premium running shoes with boost technology,ADID-UB22-10,2023-01-10
+7,Levi's 501 Jeans,Clothing,Pants,Levi's,79.99,35.00,Classic straight leg jeans,LEVI-501-32x32,2023-01-10
+8,North Face Jacket,Clothing,Outerwear,The North Face,199.99,100.00,Waterproof outdoor jacket,TNF-JACKET-L,2023-01-10
+9,KitchenAid Mixer,Home,Kitchen,KitchenAid,349.99,175.00,Professional stand mixer for baking,KAID-MIX-RED,2023-01-10
+10,Dyson V11 Vacuum,Home,Cleaning,Dyson,599.99,300.00,Cordless vacuum with powerful suction,DYSO-V11-CORD,2023-01-10

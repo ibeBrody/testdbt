@@ -1,0 +1,11 @@
+order_id,customer_id,order_date,status,total_amount,shipping_cost,discount_amount,payment_method,shipping_address,billing_address
+1001,1,2023-03-15,completed,1199.99,9.99,0.00,credit_card,123 Main St New York NY 10001,123 Main St New York NY 10001
+1002,2,2023-03-16,completed,979.98,0.00,50.00,paypal,456 Oak Ave Los Angeles CA 90001,456 Oak Ave Los Angeles CA 90001
+1003,3,2023-03-17,shipped,209.98,5.99,0.00,credit_card,789 Pine St Chicago IL 60601,789 Pine St Chicago IL 60601
+1004,4,2023-03-18,processing,2399.97,15.99,100.00,credit_card,321 Elm Dr Houston TX 77001,321 Elm Dr Houston TX 77001
+1005,5,2023-03-19,completed,349.99,0.00,0.00,debit_card,654 Maple Ln Phoenix AZ 85001,654 Maple Ln Phoenix AZ 85001
+1006,6,2023-03-20,cancelled,899.99,9.99,0.00,credit_card,987 Cedar St Philadelphia PA 19101,987 Cedar St Philadelphia PA 19101
+1007,7,2023-03-21,completed,69.99,5.99,10.00,paypal,147 Birch Ave San Antonio TX 78201,147 Birch Ave San Antonio TX 78201
+1008,8,2023-03-22,shipped,599.99,0.00,0.00,credit_card,258 Spruce Rd San Diego CA 92101,258 Spruce Rd San Diego CA 92101
+1009,9,2023-03-23,completed,309.98,5.99,20.00,debit_card,369 Willow St Dallas TX 75201,369 Willow St Dallas TX 75201
+1010,10,2023-03-24,processing,1279.98,9.99,0.00,credit_card,741 Ash Blvd San Jose CA 95101,741 Ash Blvd San Jose CA 95101

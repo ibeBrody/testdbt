@@ -1,3 +1,10 @@
+# dbt specific files
+target/
+dbt_packages/
+logs/
+*.duckdb
+*.duckdb.wal
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: monthly_revenue
+    description: "Monthly aggregated revenue and order metrics"
+    columns:
+      - name: month_year
+        description: "Month and year of the orders"
+        tests:
+          - unique
+          - not_null
+      - name: total_orders
+        description: "Total number of orders in the month"
+        tests:
+          - not_null
+      - name: completed_orders
+        description: "Number of completed orders in the month"
+        tests:
+          - not_null
+      - name: total_revenue
+        description: "Total revenue from completed orders"
+        tests:
+          - not_null
+      - name: unique_customers
+        description: "Number of unique customers who placed orders"
+        tests:
+          - not_null
