@@ -1,0 +1,53 @@
+version: 2
+
+models:
+  - name: customer_lifetime_value
+    description: "Customer analytics with lifetime value calculations and segmentation"
+    columns:
+      - name: customer_id
+        description: "Unique customer identifier"
+        tests:
+          - unique
+          - not_null
+      - name: total_spent
+        description: "Total amount spent by customer on delivered orders"
+        tests:
+          - not_null
+      - name: customer_segment
+        description: "Customer segmentation based on order frequency"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['No Orders', 'Single Purchase', 'Regular Customer', 'Loyal Customer']
+
+  - name: order_profitability
+    description: "Financial analysis of order profitability"
+    columns:
+      - name: order_id
+        description: "Unique order identifier"
+        tests:
+          - unique
+          - not_null
+      - name: total_profit
+        description: "Total profit for the order"
+        tests:
+          - not_null
+      - name: profit_margin_pct
+        description: "Profit margin percentage"
+        tests:
+          - not_null
+
+  - name: product_performance
+    description: "Product sales performance and profitability analysis"
+    columns:
+      - name: product_id
+        description: "Unique product identifier"
+        tests:
+          - unique
+          - not_null
+      - name: sales_performance
+        description: "Product sales performance category"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['No Sales', 'Low Sales', 'Medium Sales', 'High Sales']

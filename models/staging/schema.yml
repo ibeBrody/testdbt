@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: seeds
+    description: "Raw seed data for testing dbt Studio functionality"
+    tables:
+      - name: customers
+        description: "Customer master data"
+      
+      - name: products
+        description: "Product catalog data"
+
+      - name: orders
+        description: "Order transaction data"
+
+      - name: order_items
+        description: "Individual items within orders"
